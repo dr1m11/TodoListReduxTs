@@ -1,0 +1,19 @@
+body {
+    font-family: "system-ui";
+    color: #184343;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(243, 229, 192, 0.52);
+    font-weight: bold;
+}
+
+.wrapper {
+    min-height: 100vh;
+    height: 100%;
+    max-width: 80vw;
+    background-color: #f3e5c0;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 100px auto 20px auto;
+}
+

@@ -1,0 +1,57 @@
+.item {
+    display: flex;
+    border: 2px solid #184343;
+    margin: 20px 20px 0 20px;
+    border-radius: 20px;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+    transition: background-color 0.2s ease-in-out;
+}
+
+
+.itemLeft {
+    display: flex;
+    align-items: center;
+}
+
+.itemLeft > span {
+    margin: 0 20px;
+    word-break: break-word;
+}
+
+.itemRight > span {
+    margin-right: 20px;
+}
+
+.itemRight {
+    display: flex;
+    align-items: center;
+}
+
+.deleteBtn {
+    color: #184343;
+    border: 2px solid #184343;
+    padding: 5px 5px 3px 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-right: 10px;
+}
+
+.checkBtn {
+    color: #184343;
+    border: 2px solid #184343;
+    padding: 5px 5px 3px 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.checkBtn:hover {
+    background-color: rgba(133, 119, 87, 0.24);
+}
+
+.deleteBtn:hover {
+    background-color: rgba(133, 119, 87, 0.24);
+}

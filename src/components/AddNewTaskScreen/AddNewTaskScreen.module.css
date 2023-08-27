@@ -1,0 +1,91 @@
+.addNewTaskScreen {
+    background-color: rgba(0, 0, 0, 0.11);
+    position: fixed;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.wrapperMenu {
+    background-color: #f3e5c0;
+    height: 30vh;
+    width: 60vw;
+    min-width: 50vw;
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px 30px;
+    display: grid;
+
+}
+
+.firstRow {
+    display: flex;
+    align-items: center;
+}
+
+.firstRow > h3 {
+    min-width: 15vw;
+}
+
+.secondRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.1vh;
+}
+
+.secondRow > h3 {
+    min-width: 15vw;
+}
+
+.textInput {
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    font-size: 15px;
+    color: #184343;
+    width: 100%;
+}
+
+.ready {
+    color: #184343;
+    height: 40px;
+    width: 130px;
+    border: 3px solid #184343;
+    background-color: #f3e5c0;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.ready:hover:enabled {
+    background-color: rgba(133, 119, 87, 0.24);
+}
+
+.ready:disabled {
+    color: rgba(24, 67, 67, 0.4);
+    cursor: initial;
+    border: 3px solid #18434366;
+}
+
+.deleteBtn {
+    color: #184343;
+    border: 2px solid #184343;
+    padding: 5px 5px 3px 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-right: 10px;
+    position: relative;
+    left: 98%;
+    max-width: 17px;
+    max-height: 21px;
+}
+
+.deleteBtn:hover {
+    background-color: rgba(133, 119, 87, 0.24);
+}
